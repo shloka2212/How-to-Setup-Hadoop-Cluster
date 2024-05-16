@@ -38,7 +38,6 @@ etc/hadoop/core-site.xml:
         <value>hdfs://localhost:9000</value>
     </property>
 </configuration>
-
 ```
 
 etc/hadoop/hdfs-site.xml:
@@ -49,7 +48,6 @@ etc/hadoop/hdfs-site.xml:
         <value>1</value>
     </property>
 </configuration>
-
 ```
 
 
@@ -88,5 +86,4 @@ If you get an error in executing the above command, type this:
 export PDSH_RCMD_TYPE=ssh
 sudo service ssh start
 sbin/start-dfs.sh
-
 ```
